@@ -3,7 +3,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /* font-size: 13px; */
+  font-size: 13px;
 }
 nav{
     width: 100%;
@@ -19,53 +19,29 @@ figure img{
 }
 .nav a:hover{
     background-color: black;
-    color: chocolate;
+    color: white;
 }
 aside{
 	float: left;
-	/* width: 200px;
+	width: 200px;
     height: 100vh;
     background-color: #c4c4c4;
-    text-align: center;   	 */
+    text-align: center;   	
 }
-.menuLateral{
-    width: 200px;
+#Operaciones{
+	/* width: 200px;
+	padding: 2px;
+	margin: 1px 0px 1px 0px; */
+    background: rgb(156, 156, 156) ;
+}
+.content-buttom {
+	width: 200px;
     height: 100vh;
-    background-color: #dbdbdb;
+    font-size: 15px;
 }
-.listaHead{
-	margin: 1px;
-    padding: 5px;
-	text-align: center;
-	/* border: 1px solid black; */
-	background-color:darkgrey;
-	border-radius: 10px;
-	width: 150px
-}
-.listaHead:hover {
-	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
-}
-.lijst{
-	margin: 1px;
-	padding: 5px;
-	text-align: center;
-	background-color:lightseagreen;
-	border-radius: 10px;
-	width: 150px
-}
-.lijst:hover {
-	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
-}
-.lista{
-	list-style-type: none;
-    padding: 0px;
-	position: relative;
-}
-.lista li a:hover{
-    background-color: #ccc;
-}
-.titulo-principal{
-    text-align: center;
+aside button{
+    margin: .5px 0 .5px 0;
+    border-radius: 12px;
 }
 #seccion-principal {
 	padding: 10px;
@@ -82,20 +58,20 @@ aside{
     margin-left: auto;
     margin-right: auto;
 }
-.group-input{
+.col-md-12 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
 	padding: 10px 120px 10px 120px;
 	text-align: left;
 }
-.form_label {
+.form-label {
 	display: block;
 	font-weight: 700;
 	padding: 2px;
 	cursor: pointer;
 }
-.form_input {
+.form-control {
 	width: 100%;
 	background:darkgrey;
 	border: 3px solid transparent;
@@ -104,32 +80,6 @@ aside{
 	line-height: 45px;
 	padding: 0 40px 0 10px;
 	transition: .3s ease all;
-}
-.form_input:focus {
-	border: 2px solid #0075FF;
-	outline: none;
-	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
-}
-select,
-select:after {
-	grid-area: select;
-}
-select {
-	align-items: center;
-} 
-select:after {
-	justify-self: end;
-} 
-select {
-	background: transparent;
-	border: none;
-	font-size: 14px;
-	height: 30px;
-	padding: 5px;
-	width: 250px;
-}
-select:focus{ 
-	 outline: none;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {

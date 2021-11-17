@@ -10,27 +10,44 @@
     <title>Operaciones</title>
 </head>
 <body>
-    <section class="menu">
-        <nav class="nav">
-            <a class="nav-link" href="login.html">Login</a>
-            <a class="nav-link" href="home.html">Home</a>
-            <a class="nav-link" href="movimientos.html">Movimientos</a>
-            <a class="nav-link" href="#">Operaciones</a>
-        </nav>
-    </section>
+    <nav class="nav row">
+        <section class="col-11">
+          <section class="row align-items-center">
+            <figure class="col-2">
+                <img src="../Img/star.jpg" alt="">
+            </figure>
+            <ul class="nav nav-pills col-10 ">
+              <li class="nav-item mx-2">
+                <a class="btn btn-dark active fs-6" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="btn btn-light" href="#">Operaciones</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="btn btn-light" href="movimientos.html">Movimientos</a>
+              </li>
+            </ul>
+          </section>
+        </section>
+        <section class="col-1">
+            <figure class=" contain_lion">
+                <img src="../Img/star.jpg" alt="">
+            </figure>
+        </section>
     <header>
-        <h1 class="titulo-principal">Controla tus finanzas - Operaciones</h1>
+        <!-- <h1 class="titulo-principal">Controla tus finanzas - Operaciones</h1> -->
     </header>
     <hr style="margin: 0px;">
+
     <aside>
-        <section class="menuLateral">
-            <ul class="menu lista">
-                <li class="listaHead">Operaciones</li>
-                <li class="lijst"><a class="dropdown-item" href="#">Ingreso</a></li>
-                <li class="lijst"><a class="dropdown-item" href="#">Gasto</a></li>
-            </ul>
+        <section class="content-buttom list-group">
+            <button type="button" id="Category" class="list-group-item list-group-item-action disabled text-dark ">Operaciones</button>          
+            <button type="button" class="list-group-item list-group-item-action list-group-item-primary text-dark">Ingreso</button>
+            <button type="button" class="list-group-item list-group-item-action list-group-item-primary text-dark">Gasto</button>
         </section>       
     </aside>
+
+    <!-- Por acá voy -->
     <section id="seccion-principal">
         <section class="seccion" id ="seccion-gasto">
             <form action="" methodo="post" id="">
